@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+# For easier navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias -- -="cd -"
+
+# Color output and identify if dir or link
+alias ls="command ls -GFh"
+
+# Always enable colored `grep` output
+alias grep='grep --color=auto'
+
+# Print each PATH entry on a separate line
+alias path='echo -e ${PATH//:/\\n}'

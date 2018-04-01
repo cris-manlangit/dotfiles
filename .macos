@@ -1,0 +1,2 @@
+# Disable animations when opening and closing windows
+defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false

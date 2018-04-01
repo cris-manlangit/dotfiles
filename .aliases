@@ -8,7 +8,7 @@ alias .....="cd ../../../.."
 alias -- -="cd -"
 
 # Color output and identify if dir or link
-alias ls="command ls -GFh"
+alias ls="command ls -Gh"
 
 # Always enable colored `grep` output
 alias grep='grep --color=auto'

@@ -3,13 +3,9 @@ tap "caskroom/fonts"
 tap "caskroom/versions"
 tap "getantibody/tap"
 tap "heroku/brew"
-tap "homebrew/apache"
 tap "homebrew/bundle"
 tap "homebrew/core"
-tap "homebrew/dupes"
-tap "homebrew/php"
 tap "homebrew/services"
-tap "homebrew/versions"
 # cask "java"
 # brew "python"
 brew "bash"
@@ -43,6 +39,7 @@ brew "wget"
 cask "alfred"
 cask "google-chrome"
 cask "discord"
+cask "dropbox"
 
 # list of quick look plugins
 # https://github.com/sindresorhus/quick-look-plugins
@@ -58,8 +55,8 @@ cask "spotify"
 cask "the-unarchiver"
 # cask "virtualbox"
 
-mas "App Cleaner", id: 1013897218
 # mas "Xcode", id: 497799835
-mas "The Unarchiver", id: 425424353
 mas "BetterSnapTool", id: 417375580
 mas "PiPifier", id: 1160374471
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541

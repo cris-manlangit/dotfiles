@@ -18,6 +18,9 @@ set expandtab
 " show line numbers
 set number
 
+" show relative line numbers
+set relativenumber
+
 " show command in bottom bar
 set showcmd
 
